@@ -47,10 +47,10 @@
 
   /* Fonts */
   --font-family-sans: "rubik", ui-sans-serif;
-  --font font-weight-light: 300;
-  --font font-weight-regular: 400;
-  --font font-weight-medium: 500;
-  --font font-weight-bold: 700;
+  --font-font-weight-light: 300;
+  --font-font-weight-regular: 400;
+  --font-font-weight-medium: 500;
+  --font-font-weight-bold: 700;
   /* --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
