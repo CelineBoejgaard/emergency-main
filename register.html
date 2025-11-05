@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/fonts.css" />
@@ -11,7 +12,6 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -37,15 +37,77 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>Har du et godt forslag?</h2>
+          <p>
+            Hvis du har et godt forslag til, hvad man kan lave på en
+            strandferie, når solen ikke skinner, så skriv det gerne nedenfor.
+          </p>
         </article>
-        <form id="webform"></form>
+        <form id="webform">
+          <div class="form-group">
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" name="first_name" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="last_name">Last name</label>
+            <input type="text " id="last_name" name="last_name" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" required />
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="forslag">Dit forslag</label>
+
+            <textarea id="forslag" name="forslag" rows="4"></textarea>
+            <p class="error-message">Please enter a value</p>
+          </div>
+
+          <div class="form-group">
+            <label for="age">Your age:<span id="ageValue">15</span></label
+            ><br />
+
+            <input
+              type="range"
+              id="age"
+              name="age"
+              min="15"
+              max="100"
+              value="15"
+              oninput="ageValue.textContent = this.value"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="my-id"
+              >Jeg giver samtykke
+              <input type="checkbox" id="my-id" required />
+            </label>
+          </div>
+
+          <button class="button2">Indsend</button>
+        </form>
       </section>
       <section id="form-summary">
-        <h2>Summary</h2>
+        <h2>Hvad vil vi bruge dit forslag til</h2>
         <article>
-          <p class="placeholder">Opsummering</p>
+          <p class="placeholder">
+            Når du sender et forslag til os, beder vi dig om at give tilladelse
+            til, at vi må bruge dit bidrag på hjemmesiden og eventuelt i andre
+            sammenhænge (f.eks. på sociale medier eller i nyhedsbreve). Det gør
+            vi for at: sikre, at vi har lov til at vise og dele dit forslag
+            offentligt, undgå misforståelser om ejerskab, og beskytte både dig
+            og os juridisk. Ved at trykke på “Jeg giver samtykke” accepterer du,
+            at vi må bruge, redigere og vise dit forslag i forbindelse med vores
+            hjemmeside. Du bevarer stadig retten til dit eget indhold, men giver
+            os lov til at bruge det.
+          </p>
         </article>
       </section>
     </main>
