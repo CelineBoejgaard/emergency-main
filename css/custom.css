@@ -24,7 +24,7 @@
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
   --color-headline-bg: #fff;
-  --color-headline-text-page: #fff;
+  --color-headline-text-page: #000;
 
   /* Tekst */
   --color-text: #000;
@@ -47,10 +47,10 @@
 
   /* Fonts */
   --font-family-sans: "rubik", ui-sans-serif;
-  --font font-weight-light: 300;
-  --font font-weight-regular: 400;
-  --font font-weight-medium: 500;
-  --font font-weight-bold: 700;
+  --font-font-weight-light: 300;
+  --font-font-weight-regular: 400;
+  --font-font-weight-medium: 500;
+  --font-font-weight-bold: 700;
   /* --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -67,7 +67,7 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #676161;
+  --color-info-bg: #fff;
   --color-infobox-1-bg: #cfcec6;
   --color-infobox-2-bg: #969995;
 }
