@@ -10,6 +10,12 @@ function knap1() {
 
   document.querySelector(".placeholder").textContent =
     "Der er ingen sol, så du behøver ikke solbriller";
+
+  document.querySelector("#efficiency").textContent =
+    "Når du kniber øjnene sammen i skarpt lys, bliver øjenmusklerne hurtigt trætte. Solbriller reducerer blænding, så dine øjne kan slappe af.";
+
+  document.querySelector("#requirement").textContent =
+    "Huden omkring øjnene er tynd og sårbar over for solskader og rynker. Solbriller skærmer også denne del af ansigtet.";
 }
 
 document.querySelector(".knap2").addEventListener("click, knap2");
