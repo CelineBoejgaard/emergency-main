@@ -7,9 +7,22 @@ html {
 header {
   height: min-content;
 }
-button {
-  background-color: white;
+.knap1 {
+  background-color: #c3e1cf;
+  margin: 10px;
+  padding: 10px;
 }
+.knap2 {
+  background-color: #c3e1cf;
+  margin: 10px;
+  padding: 10px;
+}
+.knap3 {
+  background-color: #c3e1cf;
+  margin: 10px;
+  padding: 10px;
+}
+
 #main-disclamer {
   height: 225px;
   background-color: var(--color-head-bg);
