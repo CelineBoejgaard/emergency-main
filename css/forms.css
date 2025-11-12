@@ -36,7 +36,7 @@ p {
 }
 
 form {
-  accent-color: #ff4b00;
+  accent-color: #7699ad;
   display: grid;
   gap: 5 rem;
 }
@@ -51,7 +51,7 @@ form {
 }
 
 .button2 {
-  background-color: #ff4b00;
+  background-color: #7699ad;
   color: #fff;
   border: 1px solid #000;
   border-radius: 6px;

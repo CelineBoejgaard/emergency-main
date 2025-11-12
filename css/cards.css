@@ -87,7 +87,14 @@
   background-color: var(--color-cta-newscard-bg-inverted);
   color: var(--color-text);
 }
-.cta_btn:after {
-  content: "\2192";
-  margin-left: 1rem;
+button {
+  display: inline-block;
+  background-color: #e17122;
+  border-radius: 8px;
+  margin: 0 auto;
+  justify-self: center;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-color: #e17122;
+  cursor: pointer;
 }

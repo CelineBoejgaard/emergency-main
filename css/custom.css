@@ -1,17 +1,17 @@
 :root {
   /* Colours */
-  --color-bg: #fceb94; /* page background /*
+  --color-bg: #faf4de; /* page background /*
 
   /* Header */
-  --color-head-bg: #ff4b00;
+  --color-head-bg: #fff;
 
   /* Logotype */
-  --color-logotype-bg: #000;
+  --color-logotype-bg: #4c574d;
   --color-text-logotype: #fffae2;
   --font-logotype-size: 2rem;
 
   /* Global menu */
-  --color-menu-bg: #6f90eb;
+  --color-menu-bg: #c3e1cf;
   /* Links */
   --color-link-bg: #fff;
   --color-link-hover: #fff; /* used */
@@ -23,7 +23,7 @@
   --font-sub1-size: 1rem;
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
-  --color-headline-bg: #fff;
+  --color-headline-bg: #c3e1cf;
   --color-headline-text-page: #000;
 
   /* Tekst */
@@ -38,12 +38,12 @@
 
   /* Cards */
   --color-card-bg: #fff;
-  --color-cta-card-bg: #ff4b00;
+  --color-cta-card-bg: #4c574d;
   /* news-cards */
-  --color-news-bg: #fffae2;
+  --color-news-bg: #edd6c1;
   --color-news-bg-inverted: #dbe2f5;
-  --color-cta-newscard-bg: #ffa680;
-  --color-cta-newscard-bg-inverted: #6f90eb;
+  --color-cta-newscard-bg: #e17122;
+  --color-cta-newscard-bg-inverted: #7699ad;
 
   /* Fonts */
   --font-family-sans: "rubik", ui-sans-serif;
@@ -68,6 +68,6 @@
 
   /* Infographics */
   --color-info-bg: #fff;
-  --color-infobox-1-bg: #ffa680;
-  --color-infobox-2-bg: #6f90eb;
+  --color-infobox-1-bg: #edd6c1;
+  --color-infobox-2-bg: #dbe2f5;
 }
