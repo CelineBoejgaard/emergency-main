@@ -3,7 +3,9 @@ html {
   color: var(--color-text);
   background-color: var(--color-bg);
 }
-
+.logo {
+  max-width: 10 rem;
+}
 header {
   height: min-content;
 }

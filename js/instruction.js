@@ -5,11 +5,10 @@ function knap1() {
   document.querySelector("#brilleglas").classList.add("my_scale");
   document.querySelector("#brilleglas").style.fill = "red";
 
-  document.querySelector(".info-text h2").textContent =
-    "Solbriller er ikke længere vigtig";
+  document.querySelector(".info-text h2").textContent = "Solbriller!!";
 
   document.querySelector(".placeholder").textContent =
-    "Der er ingen sol, så du behøver ikke solbriller";
+    "Gode nyheder: Solbriller er ikke længere vigtige, fordi solen er væk, og dermed er risikoen for solens skadelige virkning på øjnene også væk. Solen kan ellers have mange negative virkninger på øjnene, som du kan se nedenfor.";
 
   document.querySelector("#efficiency").textContent =
     "Når du kniber øjnene sammen i skarpt lys, bliver øjenmusklerne hurtigt trætte. Solbriller reducerer blænding, så dine øjne kan slappe af.";

@@ -9,3 +9,12 @@ article [popover]::backdrop {
   margin: 0 auto;
   padding: 20px;
 }
+[popover] {
+  opacity: 0;
+  transition: 0.6s allow-discrete;
+}
+
+:popover-open {
+  opacity: 1;
+  rotate: none;
+}
